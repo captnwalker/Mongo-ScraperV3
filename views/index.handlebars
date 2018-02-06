@@ -1,0 +1,29 @@
+  <div class="jumbotron" id="jumbotronText">
+    <div class="container">
+      <h1 class="display-3">AppleInsider Scraper</h1>
+      <p class="lead">At AppleInsider Scraper, you can do everything you can do at AppleInsider, but do it here instead. Simply click the scraper button at the top of the page, and load the articles from AppleInsider. You can also comment on those articles as well.</p>
+      <hr class="my-4">
+      <p>Why reinvent the wheel? Because we can.</p>
+      <button type="button" class="btn btn-success btn-lg" id="scraperButton">Scrape AppleInsider</button>
+    </div>
+  </div>
+
+
+
+
+<div class="container" id="panelContainer">
+    {{#each article}}
+    <div class="panel panel-default" id={{this._id}}>
+       <div class="panel-heading">
+            <a href={{this.link}} target="_blank">
+               <h4>{{this.title}}</h4>
+            </a>
+        </div>
+        <div class="panel-body">
+            <p>{{this.postDescription}}</p>
+            <button class='btn btn-primary save-article'  id='saveArticleButton'>Save Article</button>
+        </div>
+        
+    </div>
+    {{/each}}
+</div>
