@@ -10,13 +10,13 @@
 
 This app has been deployed to Heroku and can be used by following the link below:
 
-[Mongo-ScraperV2](https://shielded-crag-39424.herokuapp.com/  "Mongo-ScraperV2 - https://shielded-crag-39424.herokuapp.com/ ")
+[Mongo-ScraperV3](https://warm-sea-64344.herokuapp.com/   "Mongo-ScraperV3 - https://shielded-crag-39424.herokuapp.com/ ")
 
 ## Screenshots of this Project
 
-![Mongo-ScraperV2](https://raw.github.com/ackermax/Mongo-ScraperV2/master/screenshots/screenshot1.gif "Mongo-ScraperV2")
+![Mongo-ScraperV3](https://raw.github.com/ackermax/Mongo-ScraperV3/master/screenshots/screenshot1.gif "Mongo-ScraperV3")
 
-![Mongo-ScraperV2](https://raw.github.com/ackermax/Mongo-ScraperV2/master/screenshots/screenshot2.gif "Mongo-ScraperV2")
+![Mongo-ScraperV3](https://raw.github.com/ackermax/Mongo-ScraperV3/master/screenshots/screenshot2.gif "Mongo-ScraperV3")
 
 ## Technologies
 
