@@ -10,7 +10,8 @@ var axios = require("axios");
 var cheerio = require("cheerio");
 
 // Require all models
-var db = require("./models");
+//var db = require("./models");
+var Article = require("./models/Article.js")
 
 var PORT = 8080;
 
@@ -34,7 +35,7 @@ var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines
 // Connect to the Mongo DB
 mongoose.Promise = Promise;
 mongoose.connect(MONGODB_URI, {
-  useMongoClient: true
+  //useMongoClient: true
 });
 // Routes
 
