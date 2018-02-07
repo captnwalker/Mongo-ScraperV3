@@ -22,7 +22,6 @@ This app has been deployed to Heroku and can be used by following the link below
 * Body-Parser - https://www.npmjs.com/package/body-parser
 * Express - https://www.npmjs.com/package/express
 * Express-Handlebars - https://www.npmjs.com/package/express-handlebars
-* Materialize - http://materializecss.com/
 * Path - https://www.npmjs.com/package/path
 * handlebars-helpers - https://www.npmjs.com/package/handlebars-helpers
 * passport - https://www.npmjs.com/package/passport
