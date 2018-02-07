@@ -3,14 +3,14 @@ var Schema = mongoose.Schema;
 
 //create article schema
 var ArticleSchema = new Schema({
-    
+
     title: {
         type: String,
         index: true,
         unique: true,
         required: true
     },
-    
+
     link: {
         type: String,
         required: true

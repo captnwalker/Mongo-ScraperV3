@@ -16,11 +16,11 @@ function scraperFunction(req, res) {
             var link = $(element).children('h1').children('a').attr('href');
             var title = $(element).children('h1').text();
             var postDescription = $(element).children('div').children(".post-description").text();
-                result.push({
-                    title: title,
-                    link: link,
-                    postDescription: postDescription
-                });
+            result.push({
+                title: title,
+                link: link,
+                postDescription: postDescription
+            });
         });
 
         Article.insertMany(result, function (err, doc) {

@@ -3,14 +3,14 @@ $(document).ready(function () {
     $.ajax({
       method: "GET",
       url: window.location.origin + "/data",
-    }) 
+    })
       .done(function (scrapedData) {
         if (scrapedData !== "No new Articles") {
           for (i = 0; i < scrapedData.length; i++) {
             console.log(scrapedData[i].title);
             console.log(scrapedData[i].link);
             console.log("Begin scraping");
-           
+
             var newPanelDiv = $('<div>');
             newPanelDiv.addClass('panel panel-default');
             newPanelDiv.attr('id', scrapedData[i]._id);
@@ -23,7 +23,7 @@ $(document).ready(function () {
 
             var title = $('<h3>');
             title.text(scrapedData[i].title);
- 
+
             var link = $('<a>');
             link.addClass('panel-body');
             link.attr('href', scrapedData[i].link);
@@ -35,9 +35,9 @@ $(document).ready(function () {
             var button = $('<div>');
             button.addClass('btn btn-primary save-article');
             button.text('Save Article');
- 
+
             link.append(title);
-            panelTitle.append(link);            
+            panelTitle.append(link);
             panelBody.append(body);
             panelBody.append(button);
             newPanelDiv.append(panelTitle);
