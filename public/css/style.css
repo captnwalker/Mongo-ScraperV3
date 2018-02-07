@@ -1,0 +1,29 @@
+body {
+    background: url("../img/wp1440.jpg");
+    font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron {
+    background: rgba(137, 236, 137, .5);
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+}
+
+.panel-default >.panel-heading {
+     background: rgba(183, 202, 118, 0.609);
+    font-family: 'Metrophobic', sans-serif;
+}
+
+h4 {
+    color: rgb(46, 45, 45);
+    font-family: 'Metrophobic', sans-serif;
+}
+
+.panel {
+    /* background: rgba(137, 236, 137, .5); */
+    background: rgba(216, 245, 121, 0.5);
+    color: aliceblue;
+}
+
