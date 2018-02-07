@@ -14,7 +14,7 @@ This app has been deployed to Heroku and can be used by following the link below
 
 ## Screenshots of this Project
 
-![Mongo-ScraperV3](https://raw.github.com/ackermax/Mongo-ScraperV3/master/screenshots/screenshot1.png "Mongo-ScraperV3")
+![Mongo-ScraperV3](https://raw.github.com/captnwalker/Mongo-ScraperV3/master/screenshots/screenshot1.png "Mongo-ScraperV3")
 
 ## Technologies
 
